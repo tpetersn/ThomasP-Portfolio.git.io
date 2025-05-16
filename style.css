@@ -3,7 +3,7 @@ h1, p, h2, h3 {
 }  
 
 body {
-    background-color: #C0C0C0 !important;
+    background-color: #aaaaaa !important;
 }
 nav .container-fluid {
     padding: 8px 0;
@@ -23,22 +23,32 @@ nav ul li {
 }
 
 .intro-txt h1 {
-    max-width: 75%;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 5px black;
+    max-width:75%;
     left: 30px;
     margin: 3px 0;
     padding: 0 40px;
     font-weight: lighter;
     font-size: 50px;
 }
-.intro-txt {
-    margin-bottom: 175px;
-    margin-top: 105px;
+
+
+.intro-txt  {
+    background-image: url("img/light-grey.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    padding-bottom: 175px;
+    padding-top: 105px;
 }
+
 
 
 .hr-1 .horizontal-line { 
     display: block;
-    margin-top: 185px;
+    margin-top: auto;
     margin-bottom: 0.5em;
     margin-left: 5px;
     margin-right: 5px;
@@ -52,6 +62,7 @@ div #case-studies{
     margin-top: 100px;
     font-weight: bold;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
 }
 
 
@@ -104,6 +115,8 @@ article h2 {
     font-size: 32px;
     margin-bottom: 18px;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
+
 }
 
 article p{
@@ -123,7 +136,7 @@ article p{
 
 footer{
     margin-left: 28px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 
@@ -132,5 +145,27 @@ footer h2 {
     text-decoration: underline ;
     font-size: 32px;
     margin-bottom: 18px;
+    text-shadow: 1px 1px 1px black;
 
 }
+
+
+footer a{
+    font-weight: bold;
+    color:rgb(39, 39, 39);
+    text-decoration: underline;
+
+}
+
+/* pseudo classes */
+
+
+.row img:hover {
+    position: relative;
+    top: -5px;
+}
+
+
+/* reponsive styles */
+
+
