@@ -269,3 +269,47 @@ display: inline-block;
 
 /* when iphone view, hange so that the e-commerce is levvel with service website */
 
+@media screen and (max-width:500px) {
+    
+    .intro-txt h1 {
+        font-size: 10px;
+        color:rgb(0, 0, 0);
+        text-shadow: 3px 2px 5px black;
+        max-width:75%;
+        left: 30px;
+        margin: 3px 0;
+        padding: 0 40px;
+        font-weight: lighter;
+        font-size: 35px;
+    }
+    nav span h1 {
+    /* color: #DE541E; */
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 5px 2px 2px black;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav ul li {
+    font-size: 18px;
+    padding-right: 10px ;
+    padding: 1px;
+    margin: 1px;
+}
+
+    .about-me .col p{
+        margin-bottom: 25px;
+        font-weight: bold;
+        color: #393939;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: underline;
+        font-size: 12px;
+        text-wrap: none;
+    }
+
+
+}
+
