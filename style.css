@@ -15,7 +15,6 @@ nav .container-fluid {
     
 }
 nav span h1 {
-    /* color: #DE541E; */
     font-size: 32px;
     font-weight: bold;
     text-shadow: 5px 2px 2px black;
@@ -28,6 +27,7 @@ nav ul li {
     font-size: 20px;
     padding-right: 10px ;
 }
+
 nav .nav-item {
     color: #545E75;
 }
@@ -45,11 +45,6 @@ nav .nav-item {
 
 
 .intro-txt  {
-    /* background-image: url("img/light-grey.png");
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    background-attachment: fixed; */
     padding-bottom: 175px;
     padding-top: 105px;
 }
@@ -249,9 +244,6 @@ display: inline-block;
 }
 
 
-
-
-
 /* pseudo classes */
 
 
@@ -264,13 +256,7 @@ display: inline-block;
 /* reponsive styles */
 
 
-
-/* change the intro parapgrah so that it fits the smaller screens better */
-
-/* when iphone view, hange so that the e-commerce is levvel with service website */
-
 @media screen and (max-width:500px) {
-    
     .intro-txt h1 {
         font-size: 10px;
         color:rgb(0, 0, 0);
@@ -278,15 +264,9 @@ display: inline-block;
         max-width:75%;
         left: 30px;
         margin: 3px 0;
-        padding: 0 40px;
+        padding: 0px 40px;
         font-weight: lighter;
         font-size: 35px;
-    }
-
-    nav .container-fluid {
-        padding: 0px 0;
-        margin: 0px 0;
-    
     }
 
     .about-me .col p{
