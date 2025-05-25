@@ -64,6 +64,7 @@ nav .nav-item {
     margin-right: 5px;
     border-style: inset;
     border-width: 9.5px ;
+    border-color: #969494;
   } 
 
 div #case-studies{
@@ -71,7 +72,7 @@ div #case-studies{
     margin-top: 100px;
     font-weight: bold;
     text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px rgb(83, 83, 83);
 }
 
 
@@ -140,6 +141,9 @@ div #case-studies{
 .about-me .sect-4 {
   text-align: center;
   margin-bottom: 35px;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 .about-me .col {
@@ -148,6 +152,7 @@ div #case-studies{
   font-weight: bold;
   margin-left: 1px;
   margin-right: 1px;
+
 }
 .about-me .col p{
   margin-bottom: 25px;
@@ -155,6 +160,9 @@ div #case-studies{
   color: #393939;
   margin-left: 1px;
   margin-right: 1px;
+  text-decoration: underline;
+  font-size: larger;
+  text-wrap: none;
 }
 
 .about-me .sect-5 {
@@ -184,25 +192,28 @@ article p{
 .hr-3 .horizontal-line { 
     display: block;
     margin-top: 75px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 0px;
+
     border-style: inset;
     border-width: 1px ;
   }
 
 footer{
-    margin-left: 28px;
-    margin-bottom: 100px;
-    
+    background-color: #393939;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: whitesmoke;
 }
 
 footer h2 {
     font-weight: bold;
     text-decoration: underline ;
+    color: whitesmoke;
     text-decoration-color: #DE541E;
     font-size: 32px;
-    margin-bottom: 18px;
+    margin-left: 25px;
+    margin-bottom: 22px;
+    
     text-shadow: 1px 1px 1px black;
 
 }
@@ -210,7 +221,7 @@ footer h2 {
 
 footer a{
     font-weight: bold;
-    color:rgb(39, 39, 39);
+    color:whitesmoke;
     text-decoration: underline;
 
 }
@@ -223,6 +234,7 @@ display: inline-block;
   content: url('img/email.png');
   margin-right: 5px;
   margin-bottom: -3px;
+  margin-left: 20px;
 }
 .linkedin-info .icon{
 display: inline-block;
@@ -232,6 +244,8 @@ display: inline-block;
   content: url('img/linkedin.png');
   margin-right: 5px;
   margin-bottom: -3px;
+  margin-left:20px;
+  color: whitesmoke;
 }
 
 
