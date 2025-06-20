@@ -49,6 +49,10 @@ nav .nav-item {
     padding-top: 105px;
 }
 
+.down-arrow {
+    transform: scale(0.1);
+}
+
 
 
 .hr-1 .horizontal-line { 
@@ -76,7 +80,6 @@ div #case-studies{
     color:rgb(39, 39, 39);
     text-decoration: underline;
     /* text-decoration-color: #DE541E; */
-
 }
 
 .cases .row {
